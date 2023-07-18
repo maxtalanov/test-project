@@ -1,14 +1,25 @@
 {
-  "name": "server",
+  "name": "server-npcirs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Тестовое задание по разделу бэк частти",
+  "main": "src/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxtalanov/test-project.git"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": {
+    "name": "Max Talanov",
+    "email": "mail@maxtalanov.ru",
+    "url": "https://maxtalanov.ru"
+  },
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "license": "ISC",
+  "private": true
 }
